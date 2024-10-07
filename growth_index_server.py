@@ -164,7 +164,7 @@ def calGrowthIndex():
 
 
     # Assuming the user data is available in the context
-    GOOGLE_API_KEY = 'AIzaSyAlGbR6CHZNxCyx2MOCc74GV1GuGppvGN0'   #userdata.get('GOOGLE_API_KEY')
+    GOOGLE_API_KEY = '#'   #userdata.get('GOOGLE_API_KEY')
 
     # Configure the GenAI model with the API key
     genai.configure(api_key=GOOGLE_API_KEY)
